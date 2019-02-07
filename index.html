@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +28,7 @@
       <div class="promo">
         <img src="img/promo-welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona">
       </div>
-      <section class="intro">
+      <section class="reasons">
         <h1 class="intro-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
         <p class="intro-desc">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         <ol class="reasons-list">
@@ -84,24 +87,22 @@
           <button class="booking-btn" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
           <form class="booking-form" action="https://echo.htmlacademy.ru" method="GET">
             <p class="booking-form-item">
-              <label for="check-in">Дата заезда</label>
-              <input type="date" name="check-in" id="check-in" value="2017-04-24">
-              <span class="calendar-icon">Календарь</span>
+              <label for="check-in">Дата заезда:</label>
+              <input type="text" name="check-in" id="check-in" value="24 апреля 2017">
             </p>
             <p class="booking-form-item">
-              <label for="check-out">Дата выезда</label>
-              <input type="date" name="check-out" id="check-out" value="2017-07-04">
-              <span class="calendar-icon">Календарь</span>
+              <label for="check-out">Дата выезда:</label>
+              <input type="text" name="check-out" id="check-out" value="4 июля 2017">
             </p>
             <span class="booking-form-item">
-              <label for="adults">Взрослые</label>
-              <input type="number" name="adults" id="adults" value="2">
+              <label for="adults">Взрослые:</label>
+              <input type="text" name="adults" id="adults" value="2">
             </span>
             <span class="booking-form-item">
-              <label for="children">Дети</label>
-              <input type="number" name="children" id="children" value="0">
+              <label for="children">Дети:</label>
+              <input type="text" name="children" id="children" value="0">
             </span>
-            <button class="booking-submit-btn" type="submit" >Найти</button>
+            <button class="booking-submit-btn" type="submit">Найти</button>
           </form>
         </div>
         <div class="map">
