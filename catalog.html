@@ -31,7 +31,7 @@
         <form class="filter" action="https://echo.htmlacademy.ru" method="GET">
           <fieldset>
             <legend>Инфраструктура:</legend>
-            <ul>
+            <ul class="filter-list">
               <li class="filter-option">
                 <input class="filter-input filter-input-checkbox" type="checkbox" name="pool" id="filter-pool" checked>
                 <label for="filter-pool">Бассейн</label>
@@ -49,7 +49,7 @@
           </fieldset>
           <fieldset>
             <legend>Тип жилья:</legend>
-            <ul>
+            <ul class="filter-list">
               <li class="filter-option">
                 <input class="filter-input filter-input-checkbox" type="checkbox" name="hotel" id="filter-hotel"
                   checked>
@@ -72,8 +72,8 @@
             <span class="price-from">от <output>0</output></span>
             <span class="price-to">до <output>3000</output></span>
             <div class="-slider">Слайдер стоимости</div>
+            <button class="filters-submit-btn" type="submit">Показать</button>
           </fieldset>
-          <button class="filters-submit-btn" type="submit">Показать</button>
         </form>
       </div>
       <div class="results">
