@@ -59,23 +59,23 @@
           <li class="reasons-item">
             <img src="img/reason-2.jpg" width="800" height="256" alt="Изображение Моста дьявола">
             <div class="reason">
-              <h2 class="reason-title">Там есть<br> Мост дьявола</h2>
+              <h2 class="reason-title">Там есть Мост дьявола</h2>
               <span class="reason-number">— №2 —</span>
               <p class="reason-desc">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             </div>
           </li>
           <li class="reasons-item reasons-item-bottom">
-            <h2 class="reason-title">Небольшая<br> площадь</h2>
+            <h2 class="reason-title">Небольшая площадь</h2>
             <span class="reason-number">— №3 —</span>
             <p class="reason-desc">Все достопримечательности находятся очень близко</p>
           </li>
           <li class="reasons-item reasons-item-bottom">
-            <h2 class="reason-title">Красивая<br> дорога</h2>
+            <h2 class="reason-title">Красивая дорога</h2>
             <span class="reason-number">— №4 —</span>
             <p class="reason-desc">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
           <li class="reasons-item reasons-item-bottom">
-            <h2 class="reason-title">Мало<br> туристов</h2>
+            <h2 class="reason-title">Мало туристов</h2>
             <span class="reason-number">— №5 —</span>
             <p class="reason-desc">Большинство едет в гранд каньон и толпится там</p>
           </li>
@@ -94,18 +94,24 @@
               <p class="booking-form-item">
                 <label for="check-in">Дата заезда:</label>
                 <input type="text" name="check-in" id="check-in" value="24 апреля 2017">
+                <button class="btn btn-calendar" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
               </p>
               <p class="booking-form-item">
                 <label for="check-out">Дата выезда:</label>
                 <input type="text" name="check-out" id="check-out" value="4 июля 2017">
+                <button class="btn btn-calendar" type="button"><span class="visually-hidden">Выбрать дату в календаре</span></button>
               </p>
               <p class="booking-form-item small-item">
                 <label for="adults">Взрослые:</label>
+                <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
                 <input type="text" name="adults" id="adults" value="2">
+                <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
               </p>
               <p class="booking-form-item small-item">
                 <label for="children">Дети:</label>
+                <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
                 <input type="text" name="children" id="children" value="0">
+                <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
               </p>
               <button class="booking-submit-btn" type="submit">Найти</button>
             </form>
