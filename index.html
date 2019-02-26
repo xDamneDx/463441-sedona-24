@@ -89,50 +89,52 @@
             в
             седоне</p>
           <button class="booking-btn" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
-          <div class="booking-form-wrapper">
-            <form class="booking-form" action="https://echo.htmlacademy.ru" method="GET">
-              <p class="booking-form-item">
-                <label for="check-in">Дата заезда:</label>
-                <input type="text" name="check-in" id="check-in" value="24 апреля 2017">
-                <button class="btn btn-calendar" type="button">
-                  <svg height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
-                    <g transform="translate(0 -1)">
-                      <path d="m19.251 3.025h-2.845v-1.377c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938v-1.377c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377h-3.938v-1.377c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377h-2.843c-.966 0-1.75.822-1.75 1.837v16.302c0 1.015.784 1.836 1.75 1.836h17.501c.966 0 1.749-.821 1.749-1.836v-16.302c0-1.015-.783-1.837-1.749-1.837zm.437 18.139c.0029535.1188271-.0414365.2339571-.1233975.3200442-.0819609.0860872-.1947737.136074-.3136025.1389558h-17.501c-.24736823-.0065476-.44303574-.2115964-.438-.459v-16.302c-.00503574-.24740362.19063177-.45245245.438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689v-1.378h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689v-1.378h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689v-1.378h2.845c.241 0 .437.206.437.459v16.302z" />
-                      <path d="m4.594 9.225h2.625v2.066h-2.625zm0 3.443h2.625v2.067h-2.625zm0 3.444h2.625v2.066h-2.625zm4.594 0h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625zm4.593 6.887h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625z" />
-                    </g>
-                  </svg>
-                  <span class="visually-hidden">Выбрать дату в календаре</span></button>
-              </p>
-              <p class="booking-form-item">
-                <label for="check-out">Дата выезда:</label>
-                <input type="text" name="check-out" id="check-out" value="4 июля 2017">
-                <button class="btn btn-calendar" type="button">
-                  <svg height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
-                    <g transform="translate(0 -1)">
-                      <path d="m19.251 3.025h-2.845v-1.377c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938v-1.377c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377h-3.938v-1.377c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377h-2.843c-.966 0-1.75.822-1.75 1.837v16.302c0 1.015.784 1.836 1.75 1.836h17.501c.966 0 1.749-.821 1.749-1.836v-16.302c0-1.015-.783-1.837-1.749-1.837zm.437 18.139c.0029535.1188271-.0414365.2339571-.1233975.3200442-.0819609.0860872-.1947737.136074-.3136025.1389558h-17.501c-.24736823-.0065476-.44303574-.2115964-.438-.459v-16.302c-.00503574-.24740362.19063177-.45245245.438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689v-1.378h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689v-1.378h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689v-1.378h2.845c.241 0 .437.206.437.459v16.302z" />
-                      <path d="m4.594 9.225h2.625v2.066h-2.625zm0 3.443h2.625v2.067h-2.625zm0 3.444h2.625v2.066h-2.625zm4.594 0h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625zm4.593 6.887h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625z" />
-                    </g>
-                  </svg>
-                  <span class="visually-hidden">Выбрать дату в календаре</span></button>
-              </p>
-              <p class="booking-form-item small-item">
-                <label for="adults">Взрослые:</label>
-                <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
-                <input type="text" name="adults" id="adults" value="2">
-                <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
-              </p>
-              <p class="booking-form-item small-item">
-                <label for="children">Дети:</label>
-                <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
-                <input type="text" name="children" id="children" value="0">
-                <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
-              </p>
-              <button class="booking-submit-btn" type="submit">Найти</button>
-            </form>
-          </div>
+        </div>
+        <div class="booking-form-wrapper">
+          <form class="booking-form" action="https://echo.htmlacademy.ru" method="GET">
+            <p class="booking-form-item">
+              <label for="check-in">Дата заезда:</label>
+              <input type="text" name="check-in" id="check-in" value="24 апреля 2017" required>
+              <button class="btn btn-calendar" type="button">
+                <svg height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(0 -1)">
+                    <path d="m19.251 3.025h-2.845v-1.377c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938v-1.377c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377h-3.938v-1.377c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377h-2.843c-.966 0-1.75.822-1.75 1.837v16.302c0 1.015.784 1.836 1.75 1.836h17.501c.966 0 1.749-.821 1.749-1.836v-16.302c0-1.015-.783-1.837-1.749-1.837zm.437 18.139c.0029535.1188271-.0414365.2339571-.1233975.3200442-.0819609.0860872-.1947737.136074-.3136025.1389558h-17.501c-.24736823-.0065476-.44303574-.2115964-.438-.459v-16.302c-.00503574-.24740362.19063177-.45245245.438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689v-1.378h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689v-1.378h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689v-1.378h2.845c.241 0 .437.206.437.459v16.302z" />
+                    <path d="m4.594 9.225h2.625v2.066h-2.625zm0 3.443h2.625v2.067h-2.625zm0 3.444h2.625v2.066h-2.625zm4.594 0h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625zm4.593 6.887h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625z" />
+                  </g>
+                </svg>
+                <span class="visually-hidden">Выбрать дату в календаре</span></button>
+            </p>
+            <p class="booking-form-item">
+              <label for="check-out">Дата выезда:</label>
+              <input type="text" name="check-out" id="check-out" value="4 июля 2017" required>
+              <button class="btn btn-calendar" type="button">
+                <svg height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
+                  <g transform="translate(0 -1)">
+                    <path d="m19.251 3.025h-2.845v-1.377c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938v-1.377c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377h-3.938v-1.377c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377h-2.843c-.966 0-1.75.822-1.75 1.837v16.302c0 1.015.784 1.836 1.75 1.836h17.501c.966 0 1.749-.821 1.749-1.836v-16.302c0-1.015-.783-1.837-1.749-1.837zm.437 18.139c.0029535.1188271-.0414365.2339571-.1233975.3200442-.0819609.0860872-.1947737.136074-.3136025.1389558h-17.501c-.24736823-.0065476-.44303574-.2115964-.438-.459v-16.302c-.00503574-.24740362.19063177-.45245245.438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689v-1.378h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689v-1.378h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689v-1.378h2.845c.241 0 .437.206.437.459v16.302z" />
+                    <path d="m4.594 9.225h2.625v2.066h-2.625zm0 3.443h2.625v2.067h-2.625zm0 3.444h2.625v2.066h-2.625zm4.594 0h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625zm4.593 6.887h2.625v2.066h-2.625zm0-3.444h2.625v2.067h-2.625zm0-3.443h2.625v2.066h-2.625z" />
+                  </g>
+                </svg>
+                <span class="visually-hidden">Выбрать дату в календаре</span></button>
+            </p>
+            <p class="booking-form-item small-item">
+              <label for="adults">Взрослые:</label>
+              <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
+              <input type="text" name="adults" id="adults" value="2" required>
+              <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
+            </p>
+            <p class="booking-form-item small-item">
+              <label for="children">Дети:</label>
+              <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
+              <input type="text" name="children" id="children" value="0" required>
+              <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
+            </p>
+            <button class="booking-submit-btn" type="submit">Найти</button>
+          </form>
         </div>
         <div class="map">
-          <img src="img/map.jpg" width="1200" height="593" alt="Карта с расположением Седоны">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d839050.9613962675!2d-111.74777042998596!3d34.76416742675712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1551189675593"
+            width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <!-- <img src="img/map.jpg" width="1200" height="593" alt="Карта с расположением Седоны"> -->
         </div>
       </section>
     </main>
@@ -153,6 +155,7 @@
       </p>
     </footer>
   </div>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

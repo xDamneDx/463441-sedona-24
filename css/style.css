@@ -174,6 +174,7 @@ img {
 }
 
 .reasons {
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -328,13 +329,15 @@ img {
 }
 
 .booking {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .booking-block {
   position: relative;
+  z-index: 10;
   padding: 58px 316px 0 316px;
   text-align: center;
+  background-color: #ffffff;
 }
 
 .booking-title {
@@ -384,6 +387,7 @@ img {
 .booking-form-wrapper {
   position: absolute;
   left: 50%;
+  display: none;
   width: 568px;
   min-height: 395px;
   margin-left: -284px;
@@ -397,6 +401,7 @@ img {
   font-size: 14px;
   font-weight: 700;
   line-height: 26px;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,6 +411,39 @@ img {
   -ms-flex-pack: justify;
   justify-content: space-between;
   text-align: left;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-400px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-400px);
+  }
+}
+
+.booking-form-show {
+  display: block;
+  animation-name: slide-down;
+  animation-duration: 0.6s;
+}
+
+.booking-form-hide {
+  display: block;
+  animation-name: slide-up;
+  animation-duration: 0.6s;
+  animation-fill-mode: forwards;
 }
 
 .booking-form-item {
