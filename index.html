@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.min.css" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -90,11 +90,11 @@
             седоне</p>
           <button class="booking-btn" type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
         </div>
-        <div class="booking-form-wrapper">
+        <div class="booking-form-wrapper booking-form-show">
           <form class="booking-form" action="https://echo.htmlacademy.ru" method="GET">
             <p class="booking-form-item">
               <label for="check-in">Дата заезда:</label>
-              <input type="text" name="check-in" id="check-in" value="24 апреля 2017" required>
+              <input type="text" name="check-in" id="check-in" value="24 апреля 2017">
               <button class="btn btn-calendar" type="button">
                 <svg height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
                   <g transform="translate(0 -1)">
@@ -106,7 +106,7 @@
             </p>
             <p class="booking-form-item">
               <label for="check-out">Дата выезда:</label>
-              <input type="text" name="check-out" id="check-out" value="4 июля 2017" required>
+              <input type="text" name="check-out" id="check-out" value="4 июля 2017">
               <button class="btn btn-calendar" type="button">
                 <svg height="22" viewBox="0 0 21 22" width="21" xmlns="http://www.w3.org/2000/svg">
                   <g transform="translate(0 -1)">
@@ -119,13 +119,13 @@
             <p class="booking-form-item small-item">
               <label for="adults">Взрослые:</label>
               <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
-              <input type="text" name="adults" id="adults" value="2" required>
+              <input type="text" name="adults" id="adults" value="2">
               <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
             </p>
             <p class="booking-form-item small-item">
               <label for="children">Дети:</label>
               <button class="btn btn-count btn-minus" type="button"><span class="visually-hidden">Уменьшить на одного</span></button>
-              <input type="text" name="children" id="children" value="0" required>
+              <input type="text" name="children" id="children" value="0">
               <button class="btn btn-count btn-plus" type="button"><span class="visually-hidden">Увеличить на одного</span></button>
             </p>
             <button class="booking-submit-btn" type="submit">Найти</button>
@@ -133,8 +133,8 @@
         </div>
         <div class="map">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d839050.9613962675!2d-111.74777042998596!3d34.76416742675712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1551189675593"
-            width="1200" height="593" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <!-- <img src="img/map.jpg" width="1200" height="593" alt="Карта с расположением Седоны"> -->
+            width="1200" height="593" allowfullscreen></iframe>
+          <img src="img/map.jpg" width="1200" height="593" alt="Карта с расположением Седоны">
         </div>
       </section>
     </main>
@@ -155,7 +155,7 @@
       </p>
     </footer>
   </div>
-  <script src="js/script.js"></script>
+  <script src="js/script.min.js"></script>
 </body>
 
 </html>
